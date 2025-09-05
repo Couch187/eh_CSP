@@ -26,6 +26,11 @@ print("The average age between:", age_one, ",", age_two, ",", age_three, ", and"
 num_one = 12
 num_two = 4 
 
+#To change into different thing (remember: float means decimal, integer means no decimal)
+num_one = float(input("Give me a number:\n"))
+num_two = int(input("Give me a number:\n"))
+
+
 print("addition:", num_one + num_two)
 print("subtraction:", num_one - num_two)
 print("multlipication:", num_one * num_two)
@@ -33,6 +38,38 @@ print("division:", num_one / num_two)
 print("exponents:", num_one ** num_two)
 print("integer division:", num_one // num_two)
 print("modulo (remainder):", num_one % num_two)
+
+num_one += num_two
+print("addition(+):", num_one + num_two)
+num_one -= num_two
+print("subtraction(-):", num_one - num_two)
+num_one *= num_two 
+print("multlipication(*):", num_one * num_two)
+num_one /= num_two 
+print("division(/):", num_one / num_two)
+num_one **= num_two
+print("exponents(**):", num_one ** num_two)
+num_one //= num_two 
+print("integer division(//):", num_one // num_two)
+num_one %= num_two 
+print("modulo (remainder)(%):", num_one % num_two)
+
+num_one += num_two
+print("addition(+):", round(num_one, 0)) #1. What needs to be rounded 2. How many decimals
+num_one -= num_two
+print("subtraction(-):", num_one - num_two)
+num_one *= num_two 
+print("multlipication(*):", num_one * num_two)
+num_one /= num_two 
+print("division(/):", num_one / num_two)
+num_one **= num_two
+print("exponents(**):", num_one ** num_two)
+num_one //= num_two 
+print("integer division(//):", num_one // num_two)
+num_one %= num_two 
+print("modulo (remainder)(%):", num_one % num_two)
+
+print("(3*5**2/15)-(5-2**2)=", (3*5**2/15)-(5-2**2))
 
 # List steps in an algorithm
     # To create an algorithm, 
@@ -43,5 +80,5 @@ print("modulo (remainder):", num_one % num_two)
 
 
 # Why are expressions so important in programming?
-    #
+    #Math is everything, the computer can run so many more calculations per second than a human can, and it is more efficient (human laziness)
 
